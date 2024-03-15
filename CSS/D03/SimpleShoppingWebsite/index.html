@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>shopping time</title>
+    <style>
+      body {
+        background-image: url(Images/1.jpg);
+        background-attachment: fixed;
+        background-repeat: repeat;
+      }
+
+      table {
+        width: 360px;
+        height: 420px;
+        background-color: lightgray;
+        padding: 2px;
+        margin: 30px auto;
+        border-radius: 15%;
+      }
+      #log {
+        display: inline-block;
+        border: 2px solid rgb(220, 102, 189);
+        background-color: rgb(220, 102, 189);
+        width: 70px;
+        height: 30px;
+        size: 90;
+        border-radius: 20%;
+        font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+        font-size: 60;
+        text-align: center;
+      }
+      span#log a {
+        color: black;
+        text-decoration: none;
+      }
+
+      span:hover {
+        cursor: pointer;
+      }
+      input {
+        border: 0;
+        outline: 0;
+        padding: 0px;
+        border-bottom: 2px solid black;
+        background-color: lightgray;
+      }
+      input:focus,
+      input:active {
+        border-bottom: 3px solid rgb(176, 97, 215);
+      }
+      #sign {
+        color: rgb(220, 102, 189);
+        border-bottom: 1px solid rgb(220, 102, 189);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th><img src="Images/icons8-male-user-50.png" /></th>
+      </tr>
+      <tr>
+        <th><input type="text" placeholder="Enter your Name" /></th>
+      </tr>
+      <tr>
+        <th><img src="Images/passs.png" /></th>
+      </tr>
+      <tr>
+        <th><input type="password" placeholder="Enter your password" /></th>
+      </tr>
+      <tr>
+        <th>
+          <span id="log"><a href="products.html">Log In</a></span>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <span id="sign"
+            ><a
+              href="signup.html"
+              style="text-decoration: none; color: rgb(220, 102, 189)"
+              >Sign UP</a
+            ></span
+          >
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>

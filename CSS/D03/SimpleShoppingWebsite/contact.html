@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>shopping time</title>
+    <style>
+      body {
+        background-image: url(Images/1.jpg);
+        background-attachment: fixed;
+        background-repeat: repeat;
+        /* display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between; */
+
+        margin: 0;
+        padding: 0;
+      }
+      p#us {
+        text-align: center;
+        font-weight: bolder;
+      }
+
+      table {
+        text-align: center;
+        width: 100%;
+      }
+      th img {
+        width: 40px;
+        height: 40px;
+      }
+
+      th {
+        width: 18%;
+        height: 140px;
+        text-align: center;
+        padding: 20px;
+        display: inline-block;
+        /* border: 2px solid green; */
+        background-color: lightgray;
+        border-radius: 5px;
+        margin: auto;
+        margin-right: 30px;
+        border-spacing: 50px;
+      }
+      p.address,
+      th a {
+        color: orange;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+      div.contact {
+        border: 200px rgb(146, 99, 146);
+        background-color: rgb(146, 99, 146);
+        text-align: right;
+        height: 200px;
+        width: 900px;
+        padding: 20px;
+        margin: 70px 35%;
+        font-size: 30;
+        font-family: "Segoe UI", Tahoma;
+        border-radius: 15%;
+      }
+
+      div.copy {
+        /* border: 100px darkmagenta; */
+        background-color: darkmagenta;
+        text-align: center;
+        height: 90px;
+        width: 100%;
+        padding-top: 50px;
+        margin: 0 auto 0 auto;
+        font-size: 200;
+        font-family: "Segoe UI", Tahoma;
+      }
+      ul a {
+        text-decoration: none;
+        color: black;
+      }
+      ul a:hover {
+        cursor: pointer;
+        color: darkmagenta;
+      }
+      ul {
+        display: flex;
+        background-color: lightgray;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      li {
+        background-color: lightgray;
+        padding: 5px 10px;
+        font: bold 20px Tahoma, Sans-serif;
+      }
+      li:not(:first-child) {
+        margin-left: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><img src="Images/home.png" alt="Home" /></li>
+      <li>
+        <a href="products.html">Products</a>
+      </li>
+      <li>
+        <a href="about.html">About us</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact us</a>
+      </li>
+    </ul>
+    <div class="contact">
+      <p id="us">Contact us</p>
+      <p style="color: azure">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate
+        id sem at dapibus. Nullam fringilla fermentum tortor sit amet euismod.
+        Curabitur sed nisl metus. Morbi quis ex erat. Suspendisse potenti.Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate id sem
+        at dapibus. Nullam fringilla fermentum tortor sit amet euismod.
+        Curabitur sed nisl metus. Morbi quis ex erat. Suspendisse potenti.
+      </p>
+    </div>
+    <table>
+      <tr>
+        <th>
+          <p class="address">
+            <a href="tel:002010164786924">&#9742; call us </a>
+          </p>
+          <p>1 (234) 567-891 , 1(234) 987-654</p>
+        </th>
+        <th>
+          <spam
+            ><img src="Images/ma.jpg" />
+            <p class="address">Location</p></spam
+          >
+          <p>121 Rock street New York ,14554-666</p>
+        </th>
+        <th>
+          <spam
+            ><img src="Images/clock.png" />
+            <p class="address">Hours</p></spam
+          >
+          <p>Mon-Fri... 11 am-8pm ,sun... 6am-8pm</p>
+        </th>
+      </tr>
+    </table>
+    <div class="copy">all rights reserved to ITI &copy;</div>
+  </body>
+</html>

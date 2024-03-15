@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var str = new String("the quick brown fox");
+      var split_str = str.split(" ");
+      var result = "";
+      for (var i = 0; i < split_str.length; i++) {
+        result +=
+          split_str[i].charAt(0).toUpperCase() + split_str[i].slice(1) + " ";
+      }
+      console.log(result);
+      alert(result);
+    </script>
+  </body>
+</html>
